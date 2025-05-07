@@ -1,10 +1,14 @@
-
-
+import Info from "./components/Info";
+//import "./App.css";
 export function App() {
   return (
-    <div>
-          <h1>Hello, World!</h1>
-          <h2>I love React</h2>
-    </div>
+    <>
+      <Info
+        FullName="John Doe"
+        AboutMe="Software Developer"
+        Interests="Coding, Music"
+        Hobbies="Reading, Hiking"
+      />
+    </>
   );
 }
